@@ -27,7 +27,7 @@ Function NewMonthly(strTask As String, contName As String, strDesc As String)
     Range("E" & rowNum).Value = "Ready"
     Range("F" & rowNum).Value = "Low"
     Range("B" & rowNum).Value = strTask
-
+    
 End Function
 
 Function ExportModules() As Boolean
